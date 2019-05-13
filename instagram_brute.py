@@ -47,7 +47,7 @@ driver = webdriver.Chrome('chromedriver.exe')
 #get the instagram page
 driver.get('https://www.instagram.com/accounts/login/')
 #get the desired username
-uName = input ("[?] Enter a username:")
+uName = input ("[?] Enter a username:rose_ayyye)
 #find the username,password and login button elements so that we can use them elsewhere
 username,password,login_button = find_elements(driver)
 #make a password list seperated by returns
