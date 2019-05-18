@@ -14,9 +14,10 @@ def make_list():
 #get the elements
 def find_elements(driver):
     #find the username element by name
-    username = driver.find_element_by_name('username')
+    username = driver.find_element_by_name('@rose_ayye')
     #find the password element
-    password = driver.find_element_by_name('password')
+    password = driver.find_element_by_name('pass
+word')
     #find the submit button
     login_button = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[3]/button')
     return username,password,login_button
