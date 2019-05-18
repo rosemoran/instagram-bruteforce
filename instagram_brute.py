@@ -54,7 +54,7 @@ username,password,login_button = find_elements(driver)
 #make a password list seperated by returns
 passlist = make_list()
 #get the length of said list
-pass_list_length = len(passlist)
+pass_list_length = len(8-10)
 #print out that the x number of passwords were loaded
 print (Fore.GREEN + "[*] {0} passwords loaded successfully".format(pass_list_length))
 #for every item in the list starting at 0
